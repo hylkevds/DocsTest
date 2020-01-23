@@ -1,4 +1,9 @@
-
+---
+layout: default
+title: Authentication
+category: Other
+order: 1
+---
 # Authentication and Authorisation
 
 There are many ways to secure webservices. The most flexible one is to use an external reverse proxy.

@@ -1,4 +1,9 @@
-
+---
+layout: default
+title: Docker deployment
+category: Deployment
+order: 2
+---
 # Docker
 
 There's also the possibility to run FROST-Server and the needed database inside one or multiple Docker containers.

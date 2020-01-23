@@ -1,4 +1,9 @@
-
+---
+layout: default
+title: All Settings
+category: Settings
+order: 1
+---
 # Configuration Options
 
 There are several ways to deploy the different packages the make up the FROST-Server.
