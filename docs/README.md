@@ -6,14 +6,9 @@ layout: default
 category: main
 order: 1
 ---
-# Documentation
+# FROST Documentation
 
-The documentation available here:
-* [Deployment Architecture](architecture-packages.md)
-* [All Configuration Options](settings.md)
-* [PostgreSQL setup](postgresql.md)
-* [Docker support](docker.md)
-* [Authentication Setup](auth.md)
+These pages contain the documentation for FROST-Server.
 
 {% assign mydocs = site.pages | group_by: 'category' %}
 {% for cat in mydocs %}{% if cat.name.size > 0 %}
