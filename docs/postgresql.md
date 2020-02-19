@@ -4,6 +4,7 @@ title: PostgreSQL Setup
 category: Deployment
 order: 3
 ---
+
 # Database: PostgreSQL with PostGIS
 
 The FROST-Server needs a database to store its data. Currently only [PostgreSQL](https://www.postgresql.org/) with the [PostGIS](https://postgis.net/) extensions is supported.

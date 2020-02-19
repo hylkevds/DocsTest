@@ -4,6 +4,7 @@ title: FROST Deployment Architecture
 category: Deployment
 order: 2
 ---
+
 # Package Architecture
 
 The FROST-Server comes in three packages, and thus also in three docker images:

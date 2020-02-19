@@ -1,3 +1,5 @@
-_site
-Gemfile.lock
+docs/_site
+docs/.sass-cache
+docs/Gemfile.lock
 *~
+
