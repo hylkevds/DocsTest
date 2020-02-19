@@ -27,8 +27,7 @@ or updated through server one, the clients connected to the MQTT interface on se
 
 ## Separated HTTP & MQTT packages
 
-To make it possible to have multiple HTTP and MQTT instances, a message bus was introduced in the architecture and the http and mqtt parts of the server
-were moved to separate packages.
+To make it possible to have multiple HTTP and MQTT instances, a message bus was introduced in the architecture and the http and mqtt parts of the server were moved to separate packages.
 
 ![Architecture using separate MQTT and HTTP packages, and a message bus for communication](images/ArchitectureSeparated.png)
 

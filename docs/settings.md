@@ -230,12 +230,28 @@ These settings configure the way the HTTP and MQTT packages communicate with eac
     The maximum number of "in-flight" messages to allow on the MQTT bus.
 
 
+## Plugin Settings
+
+These settings control which plugins are loaded.
+
+* **plugins.providedPlugins:**  
+  A comma-separated list of class names, listing the plugins provided
+  with FROST by default. Normally there should be no need to change this.
+* **plugins.plugins:**  
+  A comma-separated list of class names, listing additional plugins to load.
+* **plugins.dataArray.enable:**  
+  Toggle indicating the ResultFormat dataArray should be enabled. Defaults: `true`.
+* **plugins.csv.enable:**  
+  Toggle indicating the ResultFormat CSV should be enabled. Defaults: `true`.
+
+
 ## Experimental Settings
 
 These settings control non-standard, experimental behaviour.
 
 * **experimental.exposeServerSettings:**  
-  Adds a serverSettings element to the v1.0 index page, as discussed on the SensorThings API GitHub page: https://github.com/opengeospatial/sensorthings/issues/4
+  Adds a serverSettings element to the v1.0 index page, as discussed on the SensorThings API
+  GitHub page in [issue 4](https://github.com/opengeospatial/sensorthings/issues/4).
   You should probably use v1.1 instead.
 
 
