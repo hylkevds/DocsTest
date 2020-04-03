@@ -2,7 +2,7 @@
 layout: default
 title: STA Basic Requests
 category: SensorThings API
-order: 91
+order: 92
 ---
 
 # All Objects
