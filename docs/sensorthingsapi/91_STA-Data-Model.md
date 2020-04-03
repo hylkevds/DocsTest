@@ -1,9 +1,11 @@
 ---
 layout: default
-title: STA Data Model
+title: The Data Model
 category: SensorThings API
 order: 91
 ---
+
+# The SensorThings API Data Model
 
 In order to understand the SensorThings API, it is essential to understand the underlying data model. This model consists of the following classes:
 
@@ -17,4 +19,3 @@ In order to understand the SensorThings API, it is essential to understand the u
 
 ![SensorThings API Data Model](https://github.com/DataCoveEU/API4INSPIRE/raw/master/STA%20Documentation/DataModel.png)
 
-https://github.com/DataCoveEU/API4INSPIRE/raw/master/STA%20Documentation/DataModel.png

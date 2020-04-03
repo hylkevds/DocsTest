@@ -1,11 +1,13 @@
 ---
 layout: default
-title: STA Basic Requests
+title: Basic Requests
 category: SensorThings API
 order: 92
 ---
 
-# All Objects
+# Basic Requests
+
+## List All Object Types
 
 The base requests allowing access to the seven core classes described above are available from the SensorThings API landing page under the “value” attribute. Each value consists of a “name” that provides the name of the SensorThings class together with a “url” that provides access to all objects of this class. The following provides an overview of the SensorThings response:
 ```
@@ -26,7 +28,9 @@ The base requests allowing access to the seven core classes described above are 
   ]
 }
 ```
-# A Type of Object
+
+## A Type of Object
+
 All objects of a specific type can be accessed via the URLs provided in the SensorThings API landing page and described above. In order to request the Things provided by this service, use the following URL:
 ```
 http://server.de/SensorThingsService/v1.0/Things
@@ -56,7 +60,7 @@ Note: http://.../ is shorthand for http://server.de/SensorThingsService/v1.0/
 ```
 All other object types can be accessed in the same manner using the URLs provided in the SensorThings API landing page.
 
-# A Specific Object
+## A Specific Object
 A specific object (in this case Thing) can be requested from the API based on its identifier. In the example above one can see that the "@iot.id" has the value 1, adding this identifier at the end of the URL in round brackets () creates the URL for this specific object as follows (Alternatively, this URL is provided in the "@iot.selfLink" attribute of this object): 
 ```
 http://server.de/SensorThingsService/v1.0/Things(1)
@@ -80,12 +84,18 @@ Note: http://.../ is shorthand for http://server.de/SensorThingsService/v1.0/
 
 All other object types can be directly addressed in the same manner.
 
-# A Related Object
-One of the strengths of the SensorThings API is the ability to easily navigate through data along the associations between object types. For example, if one wants to know what Datastreams are available for a specific Thing, all one needs to do is add the name of the Datastreams class to the end of the URL for the specific Thing as follows (Alternatively, this URL is provided in the "Datastreams@iot.navigationLink" attribute of this object): 
+## A Related Object
+One of the strengths of the SensorThings API is the ability to easily navigate through data along the associations between object types.
+For example, if one wants to know what Datastreams are available for a specific Thing, all one needs to do is add the name of the
+Datastreams class to the end of the URL for the specific Thing as follows (Alternatively, this URL is provided in the "Datastreams@iot.navigationLink"
+attribute of this object):
+
 ```
 http://server.de/SensorThingsService/v1.0/Things(1)/Datastreams
 ```
+
 This request provides a list of all Datastreams associated with Thing 1 in the following response format:
+
 ```
 {
   "value" : [ {
