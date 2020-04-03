@@ -2,7 +2,7 @@
 layout: default
 title: STA Data Model
 category: SensorThings API
-order: 2
+order: 92
 ---
 
 In order to understand the SensorThings API, it is essential to understand the underlying data model. This model consists of the following classes:

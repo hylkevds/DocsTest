@@ -2,7 +2,7 @@
 layout: default
 title: STA Tailoring Requests
 category: SensorThings API
-order: 3
+order: 93
 ---
 
 In many cases, the user may wish to custom tailor the response from the SensorThings API so that exactly the required values are returned, greatly reducing overhead. SensorThings API provides the request parameters filter and expand for this purpose.

@@ -11,7 +11,7 @@ order: 1
 
 These pages contain the documentation for FROST-Server.
 
-{% assign mydocs = site.pages | group_by: 'category' %}
+{% assign mydocs = site.pages | sort: 'order' | group_by: 'category' %}
 {% for cat in mydocs %}{% if cat.name.size > 0 %}
 
 ## {{ cat.name.length }}{{ cat.name | capitalize }}

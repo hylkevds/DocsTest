@@ -2,7 +2,7 @@
 layout: default
 title: Plugin Settings
 category: Settings
-order: 3
+order: 22
 ---
 
 # Plugin Configuration Options

@@ -2,7 +2,7 @@
 layout: default
 title: Authentication
 category: Settings
-order: 2
+order: 21
 ---
 
 # Authentication and Authorisation

@@ -2,7 +2,7 @@
 layout: default
 title: Base Settings
 category: Settings
-order: 1
+order: 20
 ---
 
 # Base Configuration Options

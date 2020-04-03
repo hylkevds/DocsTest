@@ -2,7 +2,7 @@
 layout: default
 title: Docker deployment
 category: Deployment
-order: 2
+order: 11
 ---
 
 # Docker

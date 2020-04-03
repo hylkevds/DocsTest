@@ -2,7 +2,7 @@
 layout: default
 title: OGC SensorThings API
 category: SensorThings API
-order: 0
+order: 90
 ---
 
 # Welcome to the API4INSPIRE wiki!
