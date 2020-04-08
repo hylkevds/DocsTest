@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basic Requests
-category: SensorThings API
+category: STA
 order: 92
 ---
 

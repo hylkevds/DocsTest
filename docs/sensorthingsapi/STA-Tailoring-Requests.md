@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tailoring Requests
-category: SensorThings API
+category: STA
 order: 93
 ---
 

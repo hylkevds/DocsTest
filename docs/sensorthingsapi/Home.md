@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OGC SensorThings API
-category: SensorThings API
+category: STA
 order: 90
 ---
 

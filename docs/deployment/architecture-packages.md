@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FROST Deployment Architecture
-category: Deployment
+category: deployment
 order: 10
 ---
 

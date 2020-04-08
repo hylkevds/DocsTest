@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Base Settings
-category: Settings
+category: settings
 order: 20
 ---
 

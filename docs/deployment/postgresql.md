@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PostgreSQL Setup
-category: Deployment
+category: deployment
 order: 12
 ---
 

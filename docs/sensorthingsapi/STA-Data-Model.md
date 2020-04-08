@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Data Model
-category: SensorThings API
+category: STA
 order: 91
 ---
 

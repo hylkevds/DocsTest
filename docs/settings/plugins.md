@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Plugin Settings
-category: Settings
+category: settings
 order: 22
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Authentication
-category: Settings
+category: settings
 order: 21
 ---
 
