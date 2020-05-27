@@ -2,7 +2,7 @@
 layout: default
 title: OGC SensorThings API
 category: STA
-order: 90
+order: 0
 ---
 
 ## The OGC SensorThings API
@@ -25,6 +25,7 @@ For more information, please see the following sections:
 * [Data Model](STA-Data-Model)
 * [Basic Requests](STA-Basic-Requests)
 * [Tailoring Requests](STA-Tailoring-Requests)
+* [Request Syntax Details](Request-Syntax-Details)
 
 If you're more for a hands-on approach, you can also just start playing with some of our services. Here's the link for near-real-time air quality data:
 * https://airquality-frost.docker01.ilt-dmz.iosb.fraunhofer.de/v1.1
