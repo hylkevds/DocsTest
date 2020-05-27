@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filtering Entities
-category: STA
+category: STA-expand
 order: 4
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 title: Expanding Entities
 category: STA-basic
+childCategory: STA-expand
 order: 5
 ---
 
