@@ -2,7 +2,6 @@
 layout: default
 title: Basic Requests
 category: STA
-childCategory: STA-basic
 order: 2
 ---
 

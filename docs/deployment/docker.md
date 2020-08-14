@@ -51,12 +51,13 @@ You can access the server by opening `http://localhost:8080/FROST-Server/` in yo
 If you want to build your own docker images, you can do this by calling:
 
 ```
+mvn install
 mvn dockerfile:build -pl FROST-Server.HTTP,FROST-Server.MQTT,FROST-Server.MQTTP
 ```
 
 All data is stored inside the PostGIS database. To keep this state there's a volume automatically mapped to the PostGIS container.
 For more information see the `docker-compose.yaml` file and the https://hub.docker.com/r/postgis/postgis/[PostGIS container documentation]
 
-You can override all [configuration settings](settings.adoc) by using environment variables in the docker-compose files.
+You can override all [configuration settings](../settings/settings.html) by using environment variables in the docker-compose files.
 
 

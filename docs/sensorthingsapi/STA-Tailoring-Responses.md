@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tailoring Responses
-category: STA-basic
+category: STA
 order: 3
 ---
 
