@@ -16,7 +16,7 @@ Data from the [LUBW](https://www.lubw.baden-wuerttemberg.de).
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
 <script  src="https://unpkg.com/sta-map@1.1.1/dist/stam.min.js"></script>
 <script type="text/javascript">
-	var mymap = L.map('mapid').setView([51.505, 8.0], 8);
+	var mymap = L.map('mapid').setView([48.5, 9.00], 8);
 	L.tileLayer('https://{s}.tile.iosb.fraunhofer.de/tiles/osmde/{z}/{x}/{y}.png', {
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
 		maxZoom: 18
@@ -24,7 +24,7 @@ Data from the [LUBW](https://www.lubw.baden-wuerttemberg.de).
 	L.stam({
 		baseUrl: "https://lubw-frost.docker01.ilt-dmz.iosb.fraunhofer.de/v1.1",
 		MarkerStyle: "yellow",
-		clusterMin: 10,
+		clusterMin: 20,
 		queryObject: {
 			count: true,
 			skip: 0,

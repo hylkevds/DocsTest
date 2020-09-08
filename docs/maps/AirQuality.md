@@ -24,7 +24,7 @@ Data from the European Environmental Agency.
 	L.stam({
 		baseUrl: "https://airquality-frost.docker01.ilt-dmz.iosb.fraunhofer.de/v1.1",
 		MarkerStyle: "yellow",
-		clusterMin: 10,
+		clusterMin: 20,
 		queryObject: {
 			count: true,
 			skip: 0,
