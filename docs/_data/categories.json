@@ -18,5 +18,9 @@
 	{
 		"key": "extensions",
 		"title": "Extensions"
+	},
+	{
+		"key": "maps",
+		"title": "Demo Maps"
 	}
 ]
