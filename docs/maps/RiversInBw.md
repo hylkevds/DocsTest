@@ -2,12 +2,12 @@
 title: European Air Quality
 layout: default
 category: maps
-order: 1
+order: 2
 ---
 
-# European Air Quality
+# Rivers in Baden-Württemberg
 
-Data from the European Environmental Agency.
+Data from the [LUBW](https://www.lubw.baden-wuerttemberg.de).
 
 
 <div id="mapid" style="height: 90%;"></div>
@@ -22,14 +22,14 @@ Data from the European Environmental Agency.
 		maxZoom: 18
 	}).addTo(mymap);
 	L.stam({
-		baseUrl: "https://airquality-frost.docker01.ilt-dmz.iosb.fraunhofer.de/v1.1",
+		baseUrl: "https://lubw-frost.docker01.ilt-dmz.iosb.fraunhofer.de/v1.1",
 		MarkerStyle: "yellow",
 		clusterMin: 10,
 		queryObject: {
 			count: true,
 			skip: 0,
 			entityType: 'Things',
-			filter: null,
+			filter: "properties/type eq 'waterBody'",
 			select: null,
 			expand: null,
 			top: 0
