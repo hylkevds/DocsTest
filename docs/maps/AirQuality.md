@@ -38,9 +38,9 @@ Data from the European Environmental Agency.
 			top: 0
 		},
 		plot: {
-			startDate: new Date(Date.now() - 1000*60*60*24*30) //Starting date
-			//offset: -100 //Count of the observations to be plotted. Can be negative.
-			//endDate?: Date //End date to plot to
+			startDate: new Date(Date.now() - 1000*60*60*24*30),
+			offset: 0,
+			endDate: new Date()
 		}
 	}).addTo(mymap);
 </script>
