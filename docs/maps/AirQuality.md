@@ -36,6 +36,11 @@ Data from the European Environmental Agency.
 			select: null,
 			expand: null,
 			top: 0
+		},
+		plot: {
+			//startDate: Date, //Starting date
+			offset: -100 //Count of the observations to be plotted. Can be negative.
+			//endDate?: Date //End date to plot to
 		}
 	}).addTo(mymap);
 </script>
