@@ -2,15 +2,15 @@
 	{
 		"key": "main",
 		"title": "Main"
-    },
+	},
 	{
 		"key": "deployment",
 		"title": "Deployment"
-    },
+	},
 	{
 		"key": "settings",
 		"title": "Settings"
-    },
+	},
 	{
 		"key": "STA",
 		"title": "SensorThings API HowTo"
@@ -22,5 +22,9 @@
 	{
 		"key": "maps",
 		"title": "Demo Maps"
+	},
+	{
+		"key": "mappingTutorial",
+		"title": "STA Mapping Tutorial"
 	}
 ]
