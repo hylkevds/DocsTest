@@ -2,6 +2,7 @@
 title: Colouring Polygons
 layout: default
 category: mappingTutorial
+topCategory: workshop
 order: 3
 ---
 

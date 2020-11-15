@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Expanding Entities
-category: STA
+category: gettingData
+topCategory: workshop
 order: 5
 ---
 

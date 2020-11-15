@@ -25,10 +25,15 @@ For more information, please see the following sections:
 * [Data Model](STA-Data-Model)
 * [Basic Requests](STA-Basic-Requests)
 * [Tailoring Requests](STA-Tailoring-Requests)
-* [Request Syntax Details](Request-Syntax-Details)
+* [Filtering](STA-Filtering)
+* [Expading](STA-Expading)
+* [Example Queries](STA-Example-Queries)
+* [Creating entities](STA-Creating-Entities)
+* [Implementations](STA-Implementations)
+
 
 If you're more for a hands-on approach, you can also just start playing with some of our services. Here's the link for near-real-time air quality data:
-* https://airquality-frost.docker01.ilt-dmz.iosb.fraunhofer.de/v1.1
+* https://airquality-frost.k8s.ilt-dmz.iosb.fraunhofer.de/v1.1
 
 For context, a viewer operating on this endpoint:
-* https://wg-brgm.docker01.ilt-dmz.iosb.fraunhofer.de/servlet/is/121/
+* https://api4inspire.k8s.ilt-dmz.iosb.fraunhofer.de/servlet/is/127/

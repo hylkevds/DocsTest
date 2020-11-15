@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Tailoring Responses
-category: STA
+category: gettingData
+topCategory: workshop
 order: 3
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Example Queries
-category: STA
+category: gettingData
+topCategory: workshop
 order: 6
 ---
 

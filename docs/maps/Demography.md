@@ -27,152 +27,152 @@ Data from [Eurostat](https://ec.europa.eu/eurostat/de/web/gisco/geodata/referenc
 	L.stam({
 		baseUrl: "https://lubw-frost.docker01.ilt-dmz.iosb.fraunhofer.de/v1.1",
 		MarkerStyle: "yellow",
-        clusterMin: 50,
-        queryObject: [
-            {
-                zoomLevel: {
-                    from: 0,
-                    to: 5
-                },
-                query: {
-                    count: false,
-                    skip: 0,
-                    entityType: 'Things',
-                    filter: "properties/type eq 'NUTS' and properties/level eq 0",
-                    select: ["id","name","description","properties"],
-                    expand: [
-                        {
-                            count: false,
-                            skip: 0,
-                            entityType: 'Locations',
-                            filter: "properties/scale eq 60",
-                            select: ["id","name","description","properties","encodingType","location"],
-                            expand: null,
-                            top: 1
-                        }
-                    ]
-                }
-            },
-            {
-                zoomLevel: {
-                    from: 6,
-                    to: 6
-                },
-                query: {
-                    count: false,
-                    skip: 0,
-                    entityType: 'Things',
-                    filter: "properties/type eq 'NUTS' and properties/level eq 1",
-                    select: ["id","name","description","properties"],
-                    expand: [
-                        {
-                            count: false,
-                            skip: 0,
-                            entityType: 'Locations',
-                            filter: "properties/scale eq 20",
-                            select: ["id","name","description","properties","encodingType","location"],
-                            expand: null,
-                            top: 1
-                        }
-                    ]
-                }
-            },
-            {
-                zoomLevel: {
-                    from: 7,
-                    to: 8
-                },
-                query: {
-                    count: false,
-                    skip: 0,
-                    entityType: 'Things',
-                    filter: "properties/type eq 'NUTS' and properties/level eq 2",
-                    select: ["id","name","description","properties"],
-                    expand: [
-                        {
-                            count: false,
-                            skip: 0,
-                            entityType: 'Locations',
-                            filter: "properties/scale eq 10",
-                            select: ["id","name","description","properties","encodingType","location"],
-                            expand: null,
-                            top: 1
-                        }
-                    ]
-                }
-            },
-            {
-                zoomLevel: {
-                    from: 9,
-                    to: 10
-                },
-                query: {
-                    count: false,
-                    skip: 0,
-                    entityType: 'Things',
-                    filter: "properties/type eq 'NUTS' and properties/level eq 3",
-                    select: ["id","name","description","properties"],
-                    expand: [
-                        {
-                            count: false,
-                            skip: 0,
-                            entityType: 'Locations',
-                            filter: "properties/scale eq 10",
-                            select: ["id","name","description","properties","encodingType","location"],
-                            expand: null,
-                            top: 1
-                        }
-                    ]
-                }
-            },
-            {
-                zoomLevel: {
-                    from: 11,
-                    to: 13
-                },
-                query: {
-                    count: false,
-                    skip: 0,
-                    entityType: 'Things',
-                    filter: "properties/type eq 'NUTS' and properties/level eq 3",
-                    select: ["id","name","description","properties"],
-                    expand: [
-                        {
-                            count: false,
-                            skip: 0,
-                            entityType: 'Locations',
-                            filter: "properties/scale eq 3",
-                            select: ["id","name","description","properties","encodingType","location"],
-                            expand: null,
-                            top: 1
-                        }
-                    ]
-                }
-            },
-            {
-                zoomLevel: {
-                    from: 14
-                },
-                query: {
-                    count: false,
-                    skip: 0,
-                    entityType: 'Things',
-                    filter: "properties/type eq 'NUTS' and properties/level eq 3",
-                    select: ["id","name","description","properties"],
-                    expand: [
-                        {
-                            count: false,
-                            skip: 0,
-                            entityType: 'Locations',
-                            filter: "properties/scale eq 3",
-                            select: ["id","name","description","properties","encodingType","location"],
-                            expand: null,
-                            top: 1
-                        }
-                    ]
-                }
-            }
-        ]
+		clusterMin: 50,
+		queryObject: [
+			{
+				zoomLevel: {
+					from: 0,
+					to: 5
+				},
+				query: {
+					count: false,
+					skip: 0,
+					entityType: 'Things',
+					filter: "properties/type eq 'NUTS' and properties/level eq 0",
+					select: ["id","name","description","properties"],
+					expand: [
+						{
+							count: false,
+							skip: 0,
+							entityType: 'Locations',
+							filter: "properties/scale eq 60",
+							select: ["id","name","description","properties","encodingType","location"],
+							expand: null,
+							top: 1
+						}
+					]
+				}
+			},
+			{
+				zoomLevel: {
+					from: 6,
+					to: 6
+				},
+				query: {
+					count: false,
+					skip: 0,
+					entityType: 'Things',
+					filter: "properties/type eq 'NUTS' and properties/level eq 1",
+					select: ["id","name","description","properties"],
+					expand: [
+						{
+							count: false,
+							skip: 0,
+							entityType: 'Locations',
+							filter: "properties/scale eq 20",
+							select: ["id","name","description","properties","encodingType","location"],
+							expand: null,
+							top: 1
+						}
+					]
+				}
+			},
+			{
+				zoomLevel: {
+					from: 7,
+					to: 8
+				},
+				query: {
+					count: false,
+					skip: 0,
+					entityType: 'Things',
+					filter: "properties/type eq 'NUTS' and properties/level eq 2",
+					select: ["id","name","description","properties"],
+					expand: [
+						{
+							count: false,
+							skip: 0,
+							entityType: 'Locations',
+							filter: "properties/scale eq 10",
+							select: ["id","name","description","properties","encodingType","location"],
+							expand: null,
+							top: 1
+						}
+					]
+				}
+			},
+			{
+				zoomLevel: {
+					from: 9,
+					to: 10
+				},
+				query: {
+					count: false,
+					skip: 0,
+					entityType: 'Things',
+					filter: "properties/type eq 'NUTS' and properties/level eq 3",
+					select: ["id","name","description","properties"],
+					expand: [
+						{
+							count: false,
+							skip: 0,
+							entityType: 'Locations',
+							filter: "properties/scale eq 10",
+							select: ["id","name","description","properties","encodingType","location"],
+							expand: null,
+							top: 1
+						}
+					]
+				}
+			},
+			{
+				zoomLevel: {
+					from: 11,
+					to: 13
+				},
+				query: {
+					count: false,
+					skip: 0,
+					entityType: 'Things',
+					filter: "properties/type eq 'NUTS' and properties/level eq 3",
+					select: ["id","name","description","properties"],
+					expand: [
+						{
+							count: false,
+							skip: 0,
+							entityType: 'Locations',
+							filter: "properties/scale eq 3",
+							select: ["id","name","description","properties","encodingType","location"],
+							expand: null,
+							top: 1
+						}
+					]
+				}
+			},
+			{
+				zoomLevel: {
+					from: 14
+				},
+				query: {
+					count: false,
+					skip: 0,
+					entityType: 'Things',
+					filter: "properties/type eq 'NUTS' and properties/level eq 3",
+					select: ["id","name","description","properties"],
+					expand: [
+						{
+							count: false,
+							skip: 0,
+							entityType: 'Locations',
+							filter: "properties/scale eq 3",
+							select: ["id","name","description","properties","encodingType","location"],
+							expand: null,
+							top: 1
+						}
+					]
+				}
+			}
+		]
 	}).addTo(mymap);
 </script>
 
