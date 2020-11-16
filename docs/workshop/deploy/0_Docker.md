@@ -14,8 +14,9 @@ For this workshop we are using FROST-Server.
 ## Deploying FROST-Server using Docker
 
 One easy way to get a STA server running is by using docker-compose.
-Download the example [docker-compose.yaml](docker-compose.yaml) and run the command `docker-compose up' to start.
-This will start a FROST-Server instance at `http://localhost:8080/FROST-Server/`
+Download the example [docker-compose.yaml](docker-compose.yaml) and run the command `docker-compose up` to start.
+This will start a FROST-Server instance at:
+> [http://localhost:8080/FROST-Server/](http://localhost:8080/FROST-Server/)
 
 The docker compose file arranges for:
 - A PostgreSQL server with PostGIS extensions to be started
@@ -30,10 +31,12 @@ The manual for how to do this can be found on the [FROST-Server documentation si
 ## Following this tutorial without deploying FROST-Server
 
 If you have nether Tomcat/PostgreSQL, nor Docker, you can also follow this tutorial by using our demonstration
-FROST instance, at [https://ogc-demo.k8s.ilt-dmz.iosb.fraunhofer.de/](https://ogc-demo.k8s.ilt-dmz.iosb.fraunhofer.de/).
-This server is open for everyone to read, write, update and delete! 
+FROST instance, at:
 
-Everyone can delete everything!
+> [https://ogc-demo.k8s.ilt-dmz.iosb.fraunhofer.de/](https://ogc-demo.k8s.ilt-dmz.iosb.fraunhofer.de/)
+
+This server is open for everyone to read, write, update and delete.
+Most servers use some form of authentication for edit actions, but on this demo server everyone can delete everything!
 
 
 
