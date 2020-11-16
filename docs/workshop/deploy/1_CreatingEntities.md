@@ -195,15 +195,15 @@ POST v1.1/Observations
 }
 ```
 
-It is also possible to specify one relation in the URL of the POST instead of in the JSON.
+It is also possible to specify one of the relations of an enitity in the URL of the POST instead of in the JSON.
 In the following example, the post is made to `v1.1/Datastreams(999)/Observations`, i.e. to the collection of Observations belonging to Datastream 999.
 This automatically links the new Observation to Datastream 999.
 ```
-POST v1.1/Datastreams(14)/Observations
+POST v1.1/Datastreams(999)/Observations
 ```
 ```javascript
 {
-  "result" : 21
+  "result" : 22
 }
 ```
 
