@@ -12,10 +12,6 @@
 		"title": "Settings"
 	},
 	{
-		"key": "STA",
-		"title": "SensorThings API"
-	},
-	{
 		"key": "extensions",
 		"title": "Extensions"
 	},
