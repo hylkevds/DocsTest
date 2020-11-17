@@ -3,7 +3,7 @@ layout: default
 title: Example Queries
 category: gettingData
 topCategory: workshop
-order: 6
+order: 7
 ---
 
 # Example Queries
