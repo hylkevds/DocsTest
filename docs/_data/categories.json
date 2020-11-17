@@ -13,7 +13,7 @@
 	},
 	{
 		"key": "STA",
-		"title": "SensorThings API HowTo"
+		"title": "SensorThings API"
 	},
 	{
 		"key": "extensions",
@@ -25,6 +25,6 @@
 	},
 	{
 		"key": "workshop",
-		"title": "Workshop"
+		"title": "SensorThings API HowTo"
 	}
 ]

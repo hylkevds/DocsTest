@@ -5,7 +5,7 @@ category: workshop
 order: 1
 ---
 
-## The OGC SensorThings API
+# The OGC SensorThings API
 
 To quote the standard itself:
 
@@ -32,4 +32,14 @@ If you're more for a hands-on approach, you can also just start playing with som
 
 For context, a viewer operating on this endpoint:
 * https://api4inspire.k8s.ilt-dmz.iosb.fraunhofer.de/servlet/is/127/
+
+## REST Cheat Sheet
+
+|                   | GET             | POST   | PATCH  | DELETE |
+|-------------------|-----------------|--------|--------|--------|
+| __v1.1__          | Get index       |        |        |        |
+| __v1.1/Type__     | Get all of type | Create |        |        |
+| __v1.1/Type(id)__ | Get one of type |        | Update | Delete |
+
+
 

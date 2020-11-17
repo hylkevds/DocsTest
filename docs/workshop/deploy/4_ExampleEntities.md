@@ -3,7 +3,7 @@ layout: default
 title: Example Entities
 category: deploymentTutorial
 topCategory: workshop
-order: 2
+order: 4
 ---
 
 # Example Entities

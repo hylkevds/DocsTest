@@ -124,7 +124,6 @@ pre {
 }
 
 table {
-  width:100%;
   border-collapse:collapse;
 }
 
@@ -132,7 +131,12 @@ th {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
+  border-left: 1px solid #ffcc00;
   color: #444;
+
+  &:first-child {
+    border-left: none;
+  }
 }
 
 td {

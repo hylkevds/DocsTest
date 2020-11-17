@@ -34,7 +34,7 @@ POST https://example.org/FROST-Server/v1.1/Things
 
 How do you make a POST request? With your web browser!
 You can use a browser plugin, like RESTClient (for Firefox) or Postman (Google Chrome), but since recently, the FROST-Server
-landing page has a handy little form that can used to POST entities to your server.
+landing page has a handy little form that you can used to POST entities to your server.
 
 If you run a server on your own machine, with Docker, you can find it at: 
 
