@@ -1,8 +1,8 @@
 ---
 layout: default
 title: OGC SensorThings API
-category: STA
-order: 0
+category: workshop
+order: 1
 ---
 
 ## The OGC SensorThings API
@@ -22,13 +22,9 @@ SensorThings API provides access to up-to-date measurement information that is:
 This means that data from the API can be easily viewed using a normal Web Browser. One can simply navigate from one object to the next by clicking the URLs provided within the data.
 
 For more information, please see the following sections:
-* [Data Model](STA-Data-Model)
-* [Basic Requests](STA-Basic-Requests)
-* [Filtering](STA-Filtering)
-* [Expading](STA-Expading)
-* [Example Queries](STA-Example-Queries)
-* [Creating entities](STA-Creating-Entities)
-* [Implementations](STA-Implementations)
+* [Deployment](2_Deploy.html)
+* [Requesting Data](3_GettingData.html)
+* [Creating Maps](4_Mapping.html)
 
 
 If you're more for a hands-on approach, you can also just start playing with some of our services. Here's the link for near-real-time air quality data:

@@ -140,7 +140,7 @@ Function | Description <br/> Example
 `st_crosses(g1, g2)` <br/> bool | Returns true if g1 crosses g2 <br/> `st_crosses(location, geography'LINESTRING (30 10, 10 30, 40 40)')`
 `st_intersects(g1, g2)` <br/> bool | Returns true if g1 intersects g2 <br/> `st_intersects(location, geography'LINESTRING (30 10, 10 30, 40 40)')`
 `st_contains(g1, g2)` <br/> bool | Returns true if g1 contains g2 <br/> `st_contains(location, geography'POINT (30 10)')`
-`st_relate(g1, g2, s1)` <br/> bool | Returns true if g1 has a relation with g2 given the [intersecion matrix pattern](https://en.wikipedia.org/wiki/DE-9IM) s1 <br/> `st_relate(location, geography'POLYGON ((30 10, 10 20, 20 40, 40 40, 30 10))', 'T********')`
+`st_relate(g1, g2, s1)` <br/> bool | Returns true if g1 has a relation with g2 given the [intersection matrix pattern](https://en.wikipedia.org/wiki/DE-9IM) s1 <br/> `st_relate(location, geography'POLYGON ((30 10, 10 20, 20 40, 40 40, 30 10))', 'T********')`
 
 
 ### Temporal Functions

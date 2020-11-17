@@ -8,5 +8,9 @@ order: 2
 
 # Deployment
 
-In this section we deploy a FROST-Server instance, or use an existing, public instance, and add some data to it.
+In this section we:
+- deploy a FROST-Server instance
+  - or use a public instance
+- initialise a data model
+- Import some observations
 

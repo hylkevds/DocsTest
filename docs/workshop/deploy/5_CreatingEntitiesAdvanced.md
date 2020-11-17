@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creating Entities - Advanced
+title: Advanced Entity Creation
 category: deploymentTutorial
 topCategory: workshop
 order: 5
