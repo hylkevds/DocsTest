@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Implementations
-category: workshop
+category: STA
 order: 100
 ---
 

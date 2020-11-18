@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mapping
-category: workshop
+category: STA
 childCategory: mappingTutorial
 order: 4
 ---

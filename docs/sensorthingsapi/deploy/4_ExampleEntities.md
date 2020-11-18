@@ -2,7 +2,7 @@
 layout: default
 title: Example Entities
 category: deploymentTutorial
-topCategory: workshop
+topCategory: STA
 order: 4
 ---
 

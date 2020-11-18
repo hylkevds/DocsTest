@@ -2,7 +2,7 @@
 title: Colouring Polygons
 layout: default
 category: mappingTutorial
-topCategory: workshop
+topCategory: STA
 order: 3
 ---
 

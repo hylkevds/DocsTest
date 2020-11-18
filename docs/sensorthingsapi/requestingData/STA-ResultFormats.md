@@ -2,7 +2,7 @@
 layout: default
 title: CSV &amp; GeoJSON
 category: gettingData
-topCategory: workshop
+topCategory: STA
 order: 6
 ---
 

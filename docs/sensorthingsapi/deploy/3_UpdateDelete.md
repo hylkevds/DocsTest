@@ -2,7 +2,7 @@
 layout: default
 title: Updating &amp; Deleting Entities
 category: deploymentTutorial
-topCategory: workshop
+topCategory: STA
 order: 3
 ---
 

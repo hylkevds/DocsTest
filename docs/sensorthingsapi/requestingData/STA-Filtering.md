@@ -2,7 +2,7 @@
 layout: default
 title: Filtering Entities
 category: gettingData
-topCategory: workshop
+topCategory: STA
 order: 4
 ---
 

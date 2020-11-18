@@ -2,7 +2,7 @@
 layout: default
 title: Creating Entities
 category: deploymentTutorial
-topCategory: workshop
+topCategory: STA
 order: 1
 ---
 

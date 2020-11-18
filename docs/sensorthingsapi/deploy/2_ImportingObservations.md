@@ -2,7 +2,7 @@
 layout: default
 title: Importing Observations
 category: deploymentTutorial
-topCategory: workshop
+topCategory: STA
 order: 2
 ---
 

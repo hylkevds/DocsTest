@@ -2,7 +2,7 @@
 layout: default
 title: Advanced Entity Creation
 category: deploymentTutorial
-topCategory: workshop
+topCategory: STA
 order: 5
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Deployment - Docker
 category: deploymentTutorial
-topCategory: workshop
+topCategory: STA
 order: 1
 ---
 

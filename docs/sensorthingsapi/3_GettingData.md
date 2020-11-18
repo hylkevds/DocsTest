@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting Data
-category: workshop
+category: STA
 childCategory: gettingData
 order: 3
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Basic Requests
 category: gettingData
-topCategory: workshop
+topCategory: STA
 order: 2
 ---
 

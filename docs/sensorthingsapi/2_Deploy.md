@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deployment
-category: workshop
+category: STA
 childCategory: deploymentTutorial
 order: 2
 ---

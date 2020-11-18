@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OGC SensorThings API
-category: workshop
+category: STA
 order: 1
 ---
 

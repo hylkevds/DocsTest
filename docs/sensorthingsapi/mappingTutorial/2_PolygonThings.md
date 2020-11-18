@@ -2,7 +2,7 @@
 title: Polygon Things
 layout: default
 category: mappingTutorial
-topCategory: workshop
+topCategory: STA
 order: 1
 ---
 

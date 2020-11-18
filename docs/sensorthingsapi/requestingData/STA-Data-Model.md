@@ -2,7 +2,7 @@
 layout: default
 title: The Data Model
 category: gettingData
-topCategory: workshop
+topCategory: STA
 order: 1
 ---
 
